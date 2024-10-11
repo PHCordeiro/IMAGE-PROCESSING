@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: image_processing
+Version: 0.0.1
+Summary: Image Processing Package using Skimage
+Home-page: https://github.com/tiemi/image-processing-package
+Author: Karina
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+
+# Image Processing Utilities
+
+Este projeto contÃ©m uma coleÃ§Ã£o de funÃ§Ãµes em Python para manipulaÃ§Ã£o, exibiÃ§Ã£o, redimensionamento e processamento de imagens. Utiliza bibliotecas como `matplotlib` e `scikit-image` para facilitar o trabalho com imagens, criando histogramas, redimensionando e exibindo comparaÃ§Ãµes.
+
+## Funcionalidades
+
+- **Exibir Imagens e Resultados:**
+  - FunÃ§Ãµes para plotar imagens individuais, mÃºltiplas imagens (para comparaÃ§Ã£o) e histogramas de cores.
+  
+- **Redimensionar Imagens:**
+  - FunÃ§Ã£o para redimensionar imagens com base em uma proporÃ§Ã£o especificada.
+
+- **Leitura e Escrita de Imagens:**
+  - FunÃ§Ãµes para carregar e salvar imagens em diferentes formatos.
+
+## DependÃªncias
+
+As principais bibliotecas utilizadas neste projeto sÃ£o:
+
+- `matplotlib`
+- `scikit-image`
+
+### InstalaÃ§Ã£o das DependÃªncias
+
+Para instalar as dependÃªncias necessÃ¡rias, execute o seguinte comando no terminal:
+
+```bash
+pip install matplotlib scikit-image
